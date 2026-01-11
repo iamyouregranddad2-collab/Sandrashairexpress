@@ -1,0 +1,349 @@
+.header {
+    width: 100%;
+    height: 95px;
+    background-color: aliceblue;
+    display: flex;
+    padding-left: 25px;
+    border-bottom: 5px solid black;
+}
+
+.headerinside {
+    color: aliceblue;
+    width: 390px;
+    display: flex;
+}
+
+.headerinsidetekst:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.headerinsidetekst{
+    color: black;
+    font-size: 75px;
+}
+
+.headerprijzen {
+    color: black;
+    font-size: 75px;
+    margin-left: 200px;
+}
+
+.headerprijzen:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.contactinfo {
+    color: black;
+    font-size: 75px;
+    margin-left: 200px;
+    width: 400px;
+}
+
+.contactinfo:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.verhaal {
+    padding: 25px;
+    font-size: 50px
+}
+
+.contactinfoo {
+    width: 90%;
+    padding: 25px;
+    height: 950px;
+    background-color: black;
+    margin: 5%;
+    border-radius: 25px;
+}
+
+.p {
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.telefoonnummer {
+    color: aliceblue;
+    font-size: 100px;
+    padding-left: 250px;
+}
+
+.email {
+    color: aliceblue;
+    font-size: 100px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.adres {
+    color: aliceblue;
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header-caca {
+    width: 150px;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-caca div {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-caca .div-1 {
+    font-size: 60px;
+    background-color: blueviolet;
+    width: 800px;
+    height: 2000px;
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+
+.div-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.knippen {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.prijs {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.Dames-knippen {
+    font-size: 60px;
+    color: aliceblue;
+    padding-left: 25px;
+}
+
+.Dames {
+    font-size: 100px;
+    color: aliceblue;
+    padding-left: 200px;
+}
+.wassen {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.brushing {
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.korthaar2 {
+    font-size: 60px;
+    color: aliceblue;
+    padding-left: 50px;
+}
+
+.tijdenproduct {
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 25px;
+}
+
+.header-caca .div-2 {
+    font-size: 60px;
+    background-color: blueviolet;
+    width: 800px;
+    height: 2000px;
+    margin-left: 50px;
+    margin-top: 250px;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+
+.Heren {
+    font-size: 100px;
+    color: aliceblue;
+    padding-left: 250px;
+}
+
+.kinderen {
+    font-size: 100px;
+    color: aliceblue;
+    padding-left: 150px;
+}
+
+@media (max-width: 600px) {
+.headerinsidetekst{
+    font-size: 25px;
+    margin-left: 40px;
+}
+.contactinfo {
+    color: black;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.headerprijzen {
+    font-size: 25px;
+    margin-left: 50px;
+}
+.verhaal {
+    padding: 20px;
+    font-size: 25px
+}
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+}
+body {
+    width: 600px;
+}
+.header-caca {
+    width: 100px;
+    height: 250px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-caca div {
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-caca .div-1 {
+    font-size: 60px;
+    background-color: blueviolet;
+    width: 250px;
+    height: 550px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.div-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.knippen {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.prijs {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.Dames-knippen {
+    font-size: 15px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.Dames {
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 75px;
+}
+.wassen {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.brushing {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.korthaar2 {
+    font-size: 15px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.tijdenproduct {
+    font-size: 10px;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+.header-caca .div-2 {
+    font-size: 25px;
+    background-color: blueviolet;
+    width: 250px;
+    height: 440px;
+    margin-left: 5px;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+
+.Heren {
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 75px;
+}
+
+.kinderen {
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 75px;
+}
+.contactinfoo {
+    width: 90%;
+    padding: 10px;
+    height: 250px;
+    background-color: black;
+    margin: 5%;
+    border-radius: 25px;
+}
+
+.p {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.telefoonnummer {
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.email {
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.adres {
+    color: aliceblue;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+}
